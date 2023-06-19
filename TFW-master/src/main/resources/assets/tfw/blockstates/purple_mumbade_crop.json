@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "age=0": { "model": "tfw:block/purple_mumbade_stage0" },
+    "age=1": { "model": "tfw:block/purple_mumbade_stage1" },
+    "age=2": { "model": "tfw:block/purple_mumbade_stage2" },
+    "age=3": { "model": "tfw:block/purple_mumbade_stage3" },
+    "age=4": { "model": "tfw:block/purple_mumbade_stage4" },
+    "age=5": { "model": "tfw:block/purple_mumbade_stage5" }
+  }
+}

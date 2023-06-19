@@ -1,0 +1,7 @@
+{
+  "parent": "tfw:block/template_blueleaf_thettle",
+  "textures": {
+    "top": "tfw:block/blueleaf_thettle_top",
+    "side": "tfw:block/blueleaf_thettle_side"
+  }
+}

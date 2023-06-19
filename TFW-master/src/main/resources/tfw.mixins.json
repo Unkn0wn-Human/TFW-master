@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.isaacj.tfw.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "FluidMixin",
+    "HeartTypeMixin",
+    "InGameHudMixin",
+    "ModFoliagePlacerMixin$FoliagePlacerTypeInvoker",
+    "ModHeightmap",
+    "ModTrunkPlacerMixin$TrunkPlacerTypeInvoker",
+    "NoGrowthMixin$BlockCropMixin",
+    "NoGrowthMixin$BlockSaplingMixin",
+    "NoGrowthMixin$LeavesBlockDimensionMixin",
+    "PlayerEntityMixin",
+    "StructureFeatureAccessor"
+  ],
+  "client": [
+    "ExampleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

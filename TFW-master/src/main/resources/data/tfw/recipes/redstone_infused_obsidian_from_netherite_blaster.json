@@ -1,0 +1,14 @@
+{
+  "type": "tfw:netherite_blaster",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    }
+  ],
+  "output": {
+    "item": "tfw:redstone_infused_obsidian"
+  }
+}

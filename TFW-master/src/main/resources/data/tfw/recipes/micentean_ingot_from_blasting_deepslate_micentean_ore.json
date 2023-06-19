@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "tfw:deepslate_micentean_ore"
+  },
+  "result": "tfw:micentean_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

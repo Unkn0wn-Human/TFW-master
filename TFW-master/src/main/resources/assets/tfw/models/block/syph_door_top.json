@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "tfw:block/syph_door_top",
+    "bottom": "tfw:block/syph_door_bottom"
+  }
+}

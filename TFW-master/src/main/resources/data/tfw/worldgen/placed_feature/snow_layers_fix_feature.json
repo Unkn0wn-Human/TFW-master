@@ -1,0 +1,8 @@
+{
+  "feature": "tfw:snow_layers_fix",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

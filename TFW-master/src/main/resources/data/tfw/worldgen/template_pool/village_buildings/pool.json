@@ -1,0 +1,109 @@
+{
+
+
+  "name": "tfw:village_buildings/pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 15,
+      "element": {
+
+
+        "location": "tfw:large_village_house",
+        "processors": "tfw:small_village_house_randomize",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+
+
+        "location": "tfw:large_village_house_garden",
+        "processors": "tfw:small_village_house_randomize",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+
+
+        "location": "tfw:large_village_house_library",
+        "processors": "tfw:small_village_house_randomize",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+
+    {
+      "weight": 45,
+      "element": {
+
+
+        "location": "tfw:small_village_house",
+        "processors": "tfw:small_village_house_randomize",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+
+    {
+      "weight": 12,
+      "element": {
+
+
+        "location": "tfw:smeltery",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+
+
+        "location": "tfw:large_farm",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+
+
+        "location": "minecraft:empty",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+
+
+        "location": "tfw:small_village_house_double",
+        "processors": "tfw:small_village_house_randomize",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+
+
+        "location": "tfw:small_village_house_triple",
+        "processors": "tfw:small_village_house_randomize",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

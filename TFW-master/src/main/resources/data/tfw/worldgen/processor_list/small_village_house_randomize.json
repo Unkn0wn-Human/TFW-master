@@ -1,0 +1,190 @@
+{
+
+  "processors": [
+
+    {
+      "processor_type": "minecraft:rule",
+
+
+      "rules": [
+        {
+
+          "input_predicate": {
+            "block": "minecraft:glass_pane",
+            "probability": 0.42,
+            "predicate_type": "minecraft:random_block_match"
+          },
+
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+
+          "input_predicate": {
+            "block": "minecraft:snow",
+            "probability": 0.79,
+            "predicate_type": "minecraft:random_block_match"
+          },
+
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "tfw:tadacia_stairs",
+            "probability": 0.01,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "tfw:syph_log",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "tfw:stripped_syph_log"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "tfw:unlit_lantern",
+            "probability": 0.3,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:black_carpet",
+            "probability": 0.85,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:black_carpet",
+            "probability": 0.35,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:snow"
+          }
+        }
+      ,
+        {
+          "input_predicate": {
+            "block": "minecraft:gray_carpet",
+            "probability": 0.85,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:gray_carpet",
+            "probability": 0.35,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:snow"
+          }
+        }
+      ,
+        {
+          "input_predicate": {
+            "block": "minecraft:light_gray_carpet",
+            "probability": 0.85,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:light_gray_carpet",
+            "probability": 0.35,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:snow"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:ladder",
+            "probability": 0.5,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:ender_chest",
+            "probability": 0.992,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        }
+      ]
+    }
+  ]
+}

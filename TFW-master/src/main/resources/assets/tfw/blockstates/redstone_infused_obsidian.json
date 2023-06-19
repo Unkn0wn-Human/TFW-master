@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "on=false": { "model": "tfw:block/redstone_infused_obsidian_off" },
+    "on=true": { "model": "tfw:block/redstone_infused_obsidian_on" }
+  }
+}

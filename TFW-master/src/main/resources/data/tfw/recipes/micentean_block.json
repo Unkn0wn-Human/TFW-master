@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ttt",
+    "ttt",
+    "ttt"
+  ],
+  "key": {
+    "t": {
+      "item": "tfw:micentean_ingot"
+    }
+  },
+  "result": {
+    "item": "tfw:micentean_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "tfw:block/netherite_blaster_front_on",
+    "side": "tfw:block/netherite_blaster_side",
+    "top": "tfw:block/netherite_blaster_top"
+  }
+}

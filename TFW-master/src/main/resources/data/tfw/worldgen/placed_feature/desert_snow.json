@@ -1,0 +1,53 @@
+{
+  "feature": "tfw:desert_snow",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 10,
+            "data": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 0,
+                "max_inclusive": 5
+              }
+            }
+          },
+          {
+            "weight": 5,
+            "data": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 5,
+                "max_inclusive": 15
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "data": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 15,
+                "max_inclusive": 25
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

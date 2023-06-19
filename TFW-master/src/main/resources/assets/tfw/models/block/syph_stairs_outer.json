@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tfw:block/syph_planks",
+    "top": "tfw:block/syph_planks",
+    "side": "tfw:block/syph_planks"
+  }
+}

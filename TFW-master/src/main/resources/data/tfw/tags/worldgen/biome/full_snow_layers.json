@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "tfw:frozen_beach",
+    "tfw:frozen_blue_syph_forest",
+    "tfw:frozen_cold_ocean",
+    "tfw:frozen_plains",
+    "tfw:frozen_cold_plains",
+    "tfw:frozen_cold_tadacia_forest",
+    "tfw:frozen_deep_cold_ocean",
+    "tfw:frozen_deep_ocean",
+    "tfw:frozen_dense_forest",
+    "tfw:frozen_fesko_fields",
+    "tfw:frozen_grove",
+    "tfw:frozen_jungle",
+    "tfw:frozen_meadow",
+    "tfw:frozen_ocean",
+
+    "tfw:frozen_old_growth_tadacia_forest",
+    "tfw:frozen_sparse_jungle",
+    "tfw:frozen_stony_shore",
+    "tfw:frozen_swamp",
+    "tfw:frozen_syph_forest",
+    "tfw:frozen_tadacia_forest",
+    "tfw:frozen_windswept_hills",
+    "tfw:frozen_windswept_syph_forest"
+  ]
+}

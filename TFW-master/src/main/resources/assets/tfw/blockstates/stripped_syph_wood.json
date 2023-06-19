@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "tfw:block/stripped_syph_wood"
+    },
+    "axis=z": {
+      "model": "tfw:block/stripped_syph_wood",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "tfw:block/stripped_syph_wood",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

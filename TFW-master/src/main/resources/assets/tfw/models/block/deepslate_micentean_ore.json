@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tfw:block/deepslate_micentean_ore"
+  }
+}

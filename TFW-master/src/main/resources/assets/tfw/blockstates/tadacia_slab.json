@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tfw:block/tadacia_slab"
+    },
+    "type=double": {
+      "model": "tfw:block/tadacia_planks"
+    },
+    "type=top": {
+      "model": "tfw:block/tadacia_slab_top"
+    }
+  }
+}

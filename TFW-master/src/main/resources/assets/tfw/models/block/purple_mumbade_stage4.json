@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/stem_growth7",
+  "textures": {
+    "stem": "tfw:block/purple_mumbade_stem3"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "tfw:block/tadacia_pressure_plate" },
+    "powered=true": { "model": "tfw:block/tadacia_pressure_plate_down" }
+  }
+}

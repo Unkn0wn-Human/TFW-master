@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tfw:item/purple_mumbade_seeds"
+  }
+}

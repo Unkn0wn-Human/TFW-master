@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "tfw:block/tadacia_log"
+    },
+    "axis=z": {
+      "model": "tfw:block/tadacia_log",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "tfw:block/tadacia_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

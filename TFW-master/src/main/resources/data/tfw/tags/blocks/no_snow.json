@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:dirt",
+    "#minecraft:ice",
+    "minecraft:stone_bricks",
+    "minecraft:water",
+    "#minecraft:base_stone_overworld"
+  ]
+}

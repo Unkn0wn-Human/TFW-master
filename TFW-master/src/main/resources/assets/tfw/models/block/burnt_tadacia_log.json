@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "tfw:block/burnt_tadacia_log_top",
+    "side": "tfw:block/burnt_tadacia_log"
+  }
+}

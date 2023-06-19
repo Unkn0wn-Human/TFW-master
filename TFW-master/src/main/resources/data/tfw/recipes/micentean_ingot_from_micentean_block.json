@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfw:micentean_block"
+    }
+  ],
+  "result": {
+    "item": "tfw:micentean_ingot",
+    "count": 9
+  }
+}

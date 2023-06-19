@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "tfw:block/syph_log_top",
+    "side": "tfw:block/syph_log"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tfw:block/syph_slab"
+    },
+    "type=double": {
+      "model": "tfw:block/syph_planks"
+    },
+    "type=top": {
+      "model": "tfw:block/syph_slab_top"
+    }
+  }
+}

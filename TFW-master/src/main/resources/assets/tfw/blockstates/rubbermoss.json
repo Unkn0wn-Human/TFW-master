@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tfw:block/rubbermoss"
+    },
+    "facing=south": {
+      "model": "tfw:block/rubbermoss",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tfw:block/rubbermoss",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "tfw:block/rubbermoss",
+      "y": 90
+    }
+  }
+}

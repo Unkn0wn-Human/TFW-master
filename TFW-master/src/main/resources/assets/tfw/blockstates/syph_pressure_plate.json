@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "tfw:block/syph_pressure_plate" },
+    "powered=true": { "model": "tfw:block/syph_pressure_plate_down" }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "feature": "tfw:ice_mound_feature",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

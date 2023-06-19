@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tfw:block/compact_snow_burnt_tadacia"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "feature": "tfw:frozen_warm_ocean_spread",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
+

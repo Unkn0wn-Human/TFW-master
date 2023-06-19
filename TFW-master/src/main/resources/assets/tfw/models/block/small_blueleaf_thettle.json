@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "tfw:block/small_blueleaf_thettle"
+  }
+}

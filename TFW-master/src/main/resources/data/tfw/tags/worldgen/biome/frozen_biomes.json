@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "tfw:frozen_plains",
+    "tfw:frozen_syph_forest",
+    "tfw:frozen_drylands",
+    "tfw:frozen_desert",
+    "tfw:frozen_tadacia_forest",
+    "tfw:frozen_cold_tadacia_forest"
+  ]
+}

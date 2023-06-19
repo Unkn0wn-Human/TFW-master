@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfw:block/purple_sand"
+      },
+      {
+        "model": "tfw:block/purple_sand",
+        "y": 90
+      },
+      {
+        "model": "tfw:block/purple_sand",
+        "y": 180
+      },
+      {
+        "model": "tfw:block/purple_sand",
+        "y": 270
+      }
+    ]
+  }
+}

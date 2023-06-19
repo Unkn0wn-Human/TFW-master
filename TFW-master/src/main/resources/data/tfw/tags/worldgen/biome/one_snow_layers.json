@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+
+    "tfw:frozen_rustic_drylands",
+    "tfw:frozen_drylands",
+    "tfw:frozen_warm_ocean",
+    "tfw:frozen_windswept_drylands",
+    "tfw:frozen_deep_warm_ocean",
+    "tfw:frozen_river"
+  ]
+}

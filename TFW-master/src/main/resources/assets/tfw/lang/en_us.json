@@ -1,0 +1,105 @@
+{
+
+
+  "item.tfw.syph_nut": "Syph Nut",
+
+  "item.tfw.blue_mumbade_seeds": "Blue Mumbade Seeds",
+  "item.tfw.purple_mumbade_seeds": "Purple Mumbade Seeds",
+  "item.tfw.gold_mumbade_seeds": "Gold Mumbade Seeds",
+
+  "item.tfw.micentean_ingot": "Micentean Ingot",
+  "item.tfw.raw_micentean": "Raw Micentean",
+
+  "item.tfw.micentean_pickaxe": "Micentean Pickaxe",
+  "item.tfw.micentean_hoe": "Micentean Hoe",
+  "item.tfw.micentean_axe": "Micentean axe",
+  "item.tfw.micentean_sword": "Micentean sword",
+  "item.tfw.micentean_shovel": "Micentean shovel",
+
+  "item.tfw.micentean_helmet": "Micentean Helmet",
+  "item.tfw.micentean_chestplate": "Micentean Chestplate",
+  "item.tfw.micentean_leggings": "Micentean Leggings",
+  "item.tfw.micentean_boots": "Micentean boots",
+
+  "item.tfw.pointed_ice": "Ice Crystal",
+
+
+  "item.tfw.heavy_leather_helmet": "Heavy Leather Helmet",
+  "item.tfw.heavy_leather_chestplate": "Heavy Leather Chestplate",
+  "item.tfw.heavy_leather_leggings": "Heavy Leather Leggings",
+  "item.tfw.heavy_leather_boots": "Heavy Leather boots",
+
+
+  "block.tfw.redstone_infused_obsidian": "Redstone Infused Obsidian",
+  "block.tfw.compact_snow": "Compact Snow",
+  "block.tfw.compact_snow_syph": "Compact Snow Syph",
+  "block.tfw.compact_snow_burnt_tadacia": "Compact Snow Burnt Tadacia",
+  "block.tfw.compact_snow_tadacia": "Compact Snow Tadacia",
+
+  "block.tfw.tadacia_log": "Tadacia Log",
+
+  "block.tfw.burnt_tadacia_log": "Burnt Tadacia Log",
+  "block.tfw.tadacia_planks": "Tadacia planks",
+  "block.tfw.burnt_tadacia_sapling": "Burnt Tadacia Sapling",
+  "block.tfw.tadacia_sapling": "Tadacia Sapling",
+
+  "block.tfw.burnt_tadacia_leaves":"Burnt Tadacia Leaves",
+  "block.tfw.tadacia_leaves":"Tadacia Leaves",
+  "block.tfw.tadacia_stairs": "Tadacia Stairs",
+
+  "block.tfw.tadacia_slab": "Tadacia Slab",
+  "block.tfw.tadacia_pressure_plate": "Tadacia Pressure Plate",
+
+  "block.tfw.syph_log": "Syph Log",
+  "block.tfw.syph_planks": "Syph Planks",
+  "block.tfw.syph_wood": "Syph Wood",
+  "block.tfw.stripped_syph_log": "Stripped Syph Log",
+  "block.tfw.stripped_syph_wood": "Stripped Syph Wood",
+
+  "block.tfw.syph_leaves": "Syph Leaves",
+  "block.tfw.blue_syph_leaves": "Blue Syph Leaves",
+
+  "block.tfw.syph_sapling": "Syph Sapling",
+  "block.tfw.blue_syph_sapling": "Blue Syph Sapling",
+
+
+  "block.tfw.syph_slab": "Syph Slab",
+  "block.tfw.syph_stairs": "Syph Stairs",
+  "block.tfw.syph_pressure_plate": "Syph Pressure Plate",
+  "block.tfw.syph_fence": "Syph Fence",
+  "block.tfw.syph_fence_gate": "Syph Gate",
+  "block.tfw.syph_door": "Syph Door",
+
+  "block.tfw.micentean_ore": "Micentean Ore",
+  "block.tfw.deepslate_micentean_ore": "Deepslate Micentean Ore",
+  "block.tfw.mincentean_block": "Micentean Block",
+
+
+  "block.tfw.blue_mumbade": "Blue Mumbade",
+  "block.tfw.purple_mumbade": "Purple Mumbade",
+  "block.tfw.gold_mumbade": "Gold Mumbade",
+
+  "block.tfw.blue_mumbade_crop": "Blue Mumbade Crop",
+  "block.tfw.purple_mumbade_crop": "Purple Mumbade Crop",
+  "block.tfw.gold_mumbade_crop": "Gold Mumbade Crop",
+
+
+
+  "block.tfw.potted_gold_mumbade": "Potted Gold Mumbade",
+  "block.tfw.potted_blue_mumbade": "Potted Blue Mumbade",
+  "block.tfw.potted_purple_mumbade": "Potted Purple Mumbade",
+
+  "block.tfw.unlit_lantern": "Lantern (Unlit)",
+  "block.tfw.netherite_blaster": "Netherite Blaster",
+
+  "block.tfw.purple_sand": "Purple Sand",
+
+  "block.tfw.frost_bloom": "Frost Bloom",
+
+  "block.tfw.ventian": "Ventian",
+  "block.tfw.blueleaf_thettle": "Blueleafed Thettle",
+  "block.tfw.small_blueleaf_thettle": "Small Blueleafed Thettle",
+  "block.tfw.rubbermoss": "Rubbermoss",
+
+  "itemGroup.tfw.tfw": "TFW"
+}

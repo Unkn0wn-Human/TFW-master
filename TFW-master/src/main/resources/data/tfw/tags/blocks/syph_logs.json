@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tfw:syph_log",
+    "tfw:stripped_syph_log",
+    "tfw:syph_wood",
+    "tfw:stripped_syph_wood"
+  ]
+}

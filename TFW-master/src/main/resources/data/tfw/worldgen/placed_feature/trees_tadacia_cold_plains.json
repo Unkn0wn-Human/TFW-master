@@ -1,0 +1,68 @@
+{
+  "feature": "tfw:trees_tadacia",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 30,
+            "data": {
+              "type": "minecraft:constant",
+              "value": 0
+            }
+          },
+          {
+            "weight": 10,
+            "data": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 0,
+                "max_inclusive": 1
+              }
+            }
+          },
+          {
+            "weight": 3,
+            "data": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 0,
+                "max_inclusive": 2
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "tfw:tadacia_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      }
+    }
+
+
+  ]
+}
