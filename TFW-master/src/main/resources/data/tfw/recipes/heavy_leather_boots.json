@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "tfw:heavy_leather"
+    }
+  },
+  "result": {
+    "item": "tfw:heavy_leather_boots",
+    "count": 1
+  }
+}

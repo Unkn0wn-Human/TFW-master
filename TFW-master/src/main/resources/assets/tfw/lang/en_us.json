@@ -20,6 +20,7 @@
   "item.tfw.micentean_chestplate": "Micentean Chestplate",
   "item.tfw.micentean_leggings": "Micentean Leggings",
   "item.tfw.micentean_boots": "Micentean boots",
+  "item.tfw.heavy_leather": "Heavy Leather",
 
   "item.tfw.pointed_ice": "Ice Crystal",
 
@@ -35,6 +36,14 @@
   "block.tfw.compact_snow_syph": "Compact Snow Syph",
   "block.tfw.compact_snow_burnt_tadacia": "Compact Snow Burnt Tadacia",
   "block.tfw.compact_snow_tadacia": "Compact Snow Tadacia",
+  "block.tfw.compact_snow_tzier": "Compact Snow Tzier",
+
+
+  "block.tfw.tzier_log": "Tzier Log",
+  "block.tfw.tzier_leaves": "Tzier leaves",
+  "block.tfw.tzier_sapling": "Tzier sapling",
+
+  "block.tfw.glimmerlace": "Glimmerlace",
 
   "block.tfw.tadacia_log": "Tadacia Log",
 

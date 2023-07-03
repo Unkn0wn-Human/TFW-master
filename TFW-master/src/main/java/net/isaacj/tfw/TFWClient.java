@@ -35,6 +35,8 @@ public class TFWClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUELEAF_THETTLE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SMALL_BLUELEAF_THETTLE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POINTED_ICE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TZIER_SAPLING, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLIMMERLACE, RenderLayer.getCutout());
 
 
         ScreenRegistry.register(ModScreenHandlers.NETHERITE_BLASTER_SCREEN_HANDLER, NetheriteBlasterScreen::new);

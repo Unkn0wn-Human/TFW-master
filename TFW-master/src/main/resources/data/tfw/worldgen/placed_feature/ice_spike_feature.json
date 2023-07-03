@@ -1,0 +1,8 @@
+{
+  "feature": "tfw:ice_spike_feature",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

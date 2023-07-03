@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+
+      {
+        "chance": 0.5,
+        "feature": "tfw:tzier_bush"
+      },
+      {
+        "chance": 0.33333334,
+        "feature": "tfw:tzier_monarch_tree"
+      }
+    ],
+    "default": "tfw:tzier_tree"
+  }
+}

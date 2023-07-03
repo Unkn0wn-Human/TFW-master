@@ -8,16 +8,16 @@
     "HeartTypeMixin",
     "InGameHudMixin",
     "ModFoliagePlacerMixin$FoliagePlacerTypeInvoker",
-    "ModHeightmap",
+
     "ModTrunkPlacerMixin$TrunkPlacerTypeInvoker",
     "NoGrowthMixin$BlockCropMixin",
     "NoGrowthMixin$BlockSaplingMixin",
     "NoGrowthMixin$LeavesBlockDimensionMixin",
     "PlayerEntityMixin",
-    "StructureFeatureAccessor"
+    "StructureFeatureAccessor",
+    "TreeDecoratorMixin$TreeDecoratorTypeInvoker"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1

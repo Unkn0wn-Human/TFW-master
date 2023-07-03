@@ -32,13 +32,14 @@
   "features": [
     [],
     [
-      "tfw:snow_layers_feature",
-      "tfw:snow_layers_fix_feature",
+      "tfw:rubbermoss",
+
+
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [
-
+      "tfw:snow_layers_feature",
       "minecraft:amethyst_geode"
     ],
     [
@@ -90,6 +91,7 @@
     [
     ],
     [
+      "tfw:snow_layers_fix_feature"
     ]
   ]
 }

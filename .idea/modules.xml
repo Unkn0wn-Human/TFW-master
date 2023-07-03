@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/TFW-master.iml" filepath="$PROJECT_DIR$/.idea/TFW-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TFW-master.TFW-master.main.iml" filepath="$PROJECT_DIR$/.idea/modules/TFW-master.TFW-master.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TFW-master.TFW-master.test.iml" filepath="$PROJECT_DIR$/.idea/modules/TFW-master.TFW-master.test.iml" />
     </modules>
   </component>
 </project>

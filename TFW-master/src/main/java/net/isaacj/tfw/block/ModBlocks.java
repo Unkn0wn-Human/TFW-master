@@ -6,25 +6,15 @@ import net.isaacj.tfw.TFWmod;
 import net.isaacj.tfw.block.custom.*;
 import net.isaacj.tfw.block.custom.crop.ModBlueMumbadeBlock;
 import net.isaacj.tfw.item.ModItemGroups;
-import net.isaacj.tfw.world.feature.tree.BlueSyphSaplingGenerator;
-import net.isaacj.tfw.world.feature.tree.BurntTadaciaSaplingGenerator;
-import net.isaacj.tfw.world.feature.tree.SyphSaplingGenerator;
-import net.isaacj.tfw.world.feature.tree.TadaciaSaplingGenerator;
+import net.isaacj.tfw.world.feature.tree.*;
 import net.minecraft.block.*;
-import net.minecraft.block.enums.BlockHalf;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.sound.BlockSoundGroup;
-import net.minecraft.state.property.DirectionProperty;
-import net.minecraft.state.property.EnumProperty;
-import net.minecraft.state.property.Properties;
-import net.minecraft.state.property.Property;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import net.minecraft.world.gen.feature.util.CaveSurface;
-import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 
 public class ModBlocks {
 
@@ -43,7 +33,7 @@ public class ModBlocks {
             ModItemGroups.TFW);
 
     public static final Block POINTED_ICE = registerBlock("pointed_ice",
-            new PointedDripstoneBlock(FabricBlockSettings.of(Material.ICE).sounds(BlockSoundGroup.GLASS).dynamicBounds().strength(0.1f, 1f )),
+            new PointedIceBlock(FabricBlockSettings.of(Material.ICE).sounds(BlockSoundGroup.GLASS).dynamicBounds().strength(0.1f, 1f )),
             ModItemGroups.TFW);
 
 
@@ -51,6 +41,9 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.SNOW_BLOCK).sounds(BlockSoundGroup.SNOW).strength(0.4f, 2f )),
             ModItemGroups.TFW);
 
+    public static final Block COMPACT_SNOW_TZIER = registerBlock("compact_snow_tzier",
+            new Block(FabricBlockSettings.of(Material.SNOW_BLOCK).sounds(BlockSoundGroup.SNOW).strength(0.4f, 2f )),
+            ModItemGroups.TFW);
     public static final Block COMPACT_SNOW_BURNT_TADACIA = registerBlock("compact_snow_burnt_tadacia",
             new Block(FabricBlockSettings.of(Material.SNOW_BLOCK).sounds(BlockSoundGroup.SNOW).strength(0.4f, 2f )),
             ModItemGroups.TFW);
@@ -59,6 +52,16 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.SNOW_BLOCK).sounds(BlockSoundGroup.SNOW).strength(0.4f, 2f )),
             ModItemGroups.TFW);
 
+
+    public static final Block TZIER_LOG = registerBlock("tzier_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)), ModItemGroups.TFW);
+
+    public static final Block TZIER_LEAVES = registerBlock("tzier_leaves",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroups.TFW);
+
+    public static final Block TZIER_SAPLING = registerBlock("tzier_sapling",
+            new ModSaplingBlock(new TzierSaplingGenerator(),
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroups.TFW);
 
     public static final Block TADACIA_LOG = registerBlock("tadacia_log",
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)), ModItemGroups.TFW);
@@ -231,6 +234,9 @@ public class ModBlocks {
 
     public static final Block GOLD_MUMBADE_CROP = registerBlockWithoutBlockItem("gold_mumbade_crop",
             new ModBlueMumbadeBlock(FabricBlockSettings.copy(Blocks.BEETROOTS)));
+
+    public static final Block GLIMMERLACE = registerBlock("glimmerlace",
+            new VineBlock(FabricBlockSettings.copy(Blocks.VINE).luminance((state) -> 5)), ModItemGroups.TFW);
 
 
 

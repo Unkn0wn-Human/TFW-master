@@ -24,6 +24,9 @@ public class ModFeatures {
     public static final Feature<DefaultFeatureConfig> ICE_MOUND_FEATURE = register("ice_mound_feature", new
             IceMoundFeature(DefaultFeatureConfig.CODEC));
 
+    public static final Feature<DefaultFeatureConfig> ICE_SPIKE_FEATURE = register("ice_spike_feature", new
+            IceSpikeFeature(DefaultFeatureConfig.CODEC));
+
     private static <T extends Feature<?>> T register(String name, T entry) {
         return Registry.register(Registry.FEATURE, TFWmod.id(name), entry);
     }

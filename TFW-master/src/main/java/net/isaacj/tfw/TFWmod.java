@@ -15,6 +15,7 @@ import net.isaacj.tfw.world.dimension.ModPortals;
 import net.isaacj.tfw.world.feature.ModConfiguredFeatures;
 
 import net.isaacj.tfw.world.feature.features.ModFeatures;
+import net.isaacj.tfw.world.feature.tree.decorator.LumniscapeDecorator;
 import net.isaacj.tfw.world.feature.tree.placer.foliage.ModBurntTadaciaFoliagePlacer;
 import net.isaacj.tfw.world.feature.tree.placer.foliage.ModLargeTadaciaFoliagePlacer;
 import net.isaacj.tfw.world.feature.tree.placer.foliage.ModTadaciaFoliagePlacer;
@@ -26,6 +27,7 @@ import net.isaacj.tfw.world.gen.ModWorldGen;
 import net.isaacj.tfw.world.structures.ModStructures;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.gen.foliage.FoliagePlacerType;
+import net.minecraft.world.gen.treedecorator.TreeDecoratorType;
 import net.minecraft.world.gen.trunk.TrunkPlacerType;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -66,6 +68,7 @@ public class TFWmod implements ModInitializer{
 			("mod_lareg_tadacia_foliage_placer", ModLargeTadaciaFoliagePlacer.CODEC);
 
 
+	public static final TreeDecoratorType<LumniscapeDecorator> LUMNISCAPE_TREE_DECORATOR = net.isaacj.tfw.mixin.TreeDecoratorMixin.TreeDecoratorTypeInvoker.callRegister("tfw:lumniscape_decorator", LumniscapeDecorator.CODEC);
 
 
 

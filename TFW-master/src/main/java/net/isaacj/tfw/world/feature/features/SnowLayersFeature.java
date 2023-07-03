@@ -40,7 +40,8 @@ public class SnowLayersFeature extends Feature<DefaultFeatureConfig> {
                 Blocks.ANDESITE, Blocks.TUFF);
 
         final List<Block> COMPACT_SNOW_SAPLING = Arrays.asList(
-                ModBlocks.COMPACT_SNOW_TADACIA, ModBlocks.COMPACT_SNOW_BURNT_TADACIA, ModBlocks.COMPACT_SNOW_SYPH);
+                ModBlocks.COMPACT_SNOW_TADACIA, ModBlocks.COMPACT_SNOW_BURNT_TADACIA, ModBlocks.COMPACT_SNOW_SYPH,
+                ModBlocks.COMPACT_SNOW_TZIER);
 
         for (int x = 0; x < 16; x++) {
             for (int z = 0; z < 16; z++) {
@@ -51,9 +52,6 @@ public class SnowLayersFeature extends Feature<DefaultFeatureConfig> {
                 mutable2.set(k, m, l).move(Direction.UP, 1);
 
 
-                if (structureWorldAccess.getBlockState(mutable.down()).isOf(Blocks.WATER)){
-                    structureWorldAccess.setBlockState(mutable, Blocks.SNOW_BLOCK.getDefaultState(),2);
-                }
 
                 if (structureWorldAccess.getBiomeAccess().getBiome(mutable).isIn(CustomBiomeTags.FULL_SNOW_LAYERS)) {
 

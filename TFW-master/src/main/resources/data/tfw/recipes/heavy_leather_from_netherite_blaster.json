@@ -1,0 +1,14 @@
+{
+  "type": "tfw:netherite_blaster",
+  "ingredients": [
+    {
+      "item": "tfw:rubbermoss"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "output": {
+    "item": "tfw:heavy_leather"
+  }
+}

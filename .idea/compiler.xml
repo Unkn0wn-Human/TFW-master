@@ -12,12 +12,12 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.LlamaLad7/MixinExtras/0.0.12/c644ba5716f9182adbdcc324f3892d3093f25a07/MixinExtras-0.0.12.jar" />
         </processorPath>
-        <module name="TFW-master.TFW-master.main~1" />
+        <module name="TFW-master.TFW-master.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="TFW-master.TFW-master.main" target="17" />
-      <module name="TFW-master.TFW-master.test" target="17" />
+      <module name="TFW-master.TFW-master.main~1" target="17" />
+      <module name="TFW-master.TFW-master.test~1" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

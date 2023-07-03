@@ -15,6 +15,8 @@ public class ModItems {
     public static final Item SYPH_NUT = registerItem("syph_nut",
             new Item(new FabricItemSettings().food(ModFoodComponent.SYPH_NUT).group(ModItemGroups.TFW)));
 
+    public static final Item HEAVY_LEATHER = registerItem("heavy_leather",
+            new Item(new FabricItemSettings().group(ModItemGroups.TFW)));
 
     public static final Item BLUE_MUMBADE_SEEDS = registerItem("blue_mumbade_seeds",
             new AliasedBlockItem(ModBlocks.BLUE_MUMBADE_CROP,

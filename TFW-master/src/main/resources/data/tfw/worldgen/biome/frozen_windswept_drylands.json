@@ -34,12 +34,13 @@
     [
       "tfw:compact_snow_burnt_tadacia",
       "tfw:trees_burnt_tadacia",
-      "tfw:snow_layers_feature",
+
       "minecraft:lake_lava_underground"
 
 
     ],
     [
+      "tfw:snow_layers_feature",
       "minecraft:amethyst_geode"
 
     ],
@@ -85,14 +86,14 @@
     [
       "minecraft:spring_water",
       "minecraft:spring_lava",
+
+    ],
+    [
+
+
+    ],
+    [
       "tfw:snow_layers_fix_feature"
-    ],
-    [
-
-
-    ],
-    [
-
     ]
   ]
 }

@@ -33,12 +33,13 @@
     [],
     [
       "tfw:trees_large_tadacia",
-      "tfw:snow_layers_feature",
-      "tfw:snow_layers_fix_feature",
+
+
       "minecraft:lake_lava_underground"
 
     ],
     [
+      "tfw:snow_layers_feature",
       "minecraft:amethyst_geode"
 
     ],
@@ -92,7 +93,7 @@
 
     ],
     [
-
+      "tfw:snow_layers_fix_feature"
     ]
   ]
 }

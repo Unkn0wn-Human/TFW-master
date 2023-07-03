@@ -38,7 +38,7 @@
     ],
     [
       "tfw:snow_layers_feature",
-      "tfw:snow_layers_fix_feature",
+
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface",
       "minecraft:amethyst_geode"
@@ -92,6 +92,7 @@
     [
     ],
     [
+      "tfw:snow_layers_fix_feature"
     ]
   ]
 }
