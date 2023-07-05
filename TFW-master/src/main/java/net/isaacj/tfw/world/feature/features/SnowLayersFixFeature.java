@@ -46,6 +46,21 @@ public class SnowLayersFixFeature extends Feature<DefaultFeatureConfig> {
                 {
                     structureWorldAccess.setBlockState(mutable, Blocks.SNOW_BLOCK.getDefaultState(), 2);
                 }
+
+
+                BlockState blockState = structureWorldAccess.getBlockState(mutable);
+                BlockState blockWest = structureWorldAccess.getBlockState(mutable.west());
+                BlockState blockEast = structureWorldAccess.getBlockState(mutable.east());
+                BlockState blockNorth = structureWorldAccess.getBlockState(mutable.north());
+                BlockState blockSouth = structureWorldAccess.getBlockState(mutable.south());
+
+                if (blockState.isOf(Blocks.AIR) &&
+                        COMPACT_SNOW.contains(blockWest.getBlock()) ||
+                        COMPACT_SNOW.contains(blockEast.getBlock()) ||
+                        COMPACT_SNOW.contains(blockNorth.getBlock()) || COMPACT_SNOW.contains(blockSouth.getBlock())) {
+                    structureWorldAccess.setBlockState(mutable, Blocks.SNOW_BLOCK.getDefaultState(), 2);
+
+                }
             }
         }
 

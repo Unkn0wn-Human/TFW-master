@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/slab",
+  "parent": "minecraft:block/slab_top",
   "textures": {
     "bottom": "tfw:block/tadacia_planks",
     "top": "tfw:block/tadacia_planks",

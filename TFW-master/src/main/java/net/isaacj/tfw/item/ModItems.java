@@ -18,6 +18,17 @@ public class ModItems {
     public static final Item HEAVY_LEATHER = registerItem("heavy_leather",
             new Item(new FabricItemSettings().group(ModItemGroups.TFW)));
 
+    public static final Item PURPLE_CARROT = registerItem("purple_carrot",
+            new AliasedBlockItem(ModBlocks.PURPLE_CARROT_CROP,
+                    new FabricItemSettings().food(FoodComponents.CARROT).group(ModItemGroups.TFW)));
+
+    public static final Item PINK_PEARL_SEEDS = registerItem("pink_pearl_seeds",
+            new AliasedBlockItem(ModBlocks.PINK_PEARL_CROP,
+                    new FabricItemSettings().group(ModItemGroups.TFW)));
+
+    public static final Item BLUE_PEARL_SEEDS = registerItem("blue_pearl_seeds",
+            new AliasedBlockItem(ModBlocks.BLUE_PEARL_CROP,
+                    new FabricItemSettings().group(ModItemGroups.TFW)));
     public static final Item BLUE_MUMBADE_SEEDS = registerItem("blue_mumbade_seeds",
             new AliasedBlockItem(ModBlocks.BLUE_MUMBADE_CROP,
                     new FabricItemSettings().group(ModItemGroups.TFW)));
@@ -34,6 +45,18 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroups.TFW)));
 
     public static final Item MICENTEAN_INGOT = registerItem("micentean_ingot",
+            new Item(new FabricItemSettings().group(ModItemGroups.TFW)));
+
+    public static final Item KELIBOON_IRON = registerItem("keliboon_iron",
+            new Item(new FabricItemSettings().group(ModItemGroups.TFW)));
+
+    public static final Item KELIBOON_GOLD = registerItem("keliboon_gold",
+            new Item(new FabricItemSettings().group(ModItemGroups.TFW)));
+
+    public static final Item KELIBOON_DIAMOND = registerItem("keliboon_diamond",
+            new Item(new FabricItemSettings().group(ModItemGroups.TFW)));
+
+    public static final Item KELIBOON_MICENTEAN = registerItem("keliboon_micentean",
             new Item(new FabricItemSettings().group(ModItemGroups.TFW)));
 
 
@@ -91,7 +114,6 @@ public class ModItems {
     public static final Item HEAVY_LEATHER_BOOTS = registerItem("heavy_leather_boots",
             new ArmorItem(ModArmorMaterial.HEAVY_LEATHER, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroups.TFW)));
-
 
 
 

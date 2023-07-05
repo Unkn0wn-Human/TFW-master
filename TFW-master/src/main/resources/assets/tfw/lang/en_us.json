@@ -6,6 +6,14 @@
   "item.tfw.blue_mumbade_seeds": "Blue Mumbade Seeds",
   "item.tfw.purple_mumbade_seeds": "Purple Mumbade Seeds",
   "item.tfw.gold_mumbade_seeds": "Gold Mumbade Seeds",
+  "item.tfw.pink_pearl_seeds": "Pink Pearl Seeds",
+  "item.tfw.blue_pearl_seeds": "Blue Pearl Seeds",
+
+  "item.tfw.keliboon_iron": "Iron Keliboon Armor",
+  "item.tfw.keliboon_gold": "Gold Keliboon Armor",
+  "item.tfw.keliboon_diamond": "diamond Keliboon Armor",
+  "item.tfw.keliboon_micentean": "Micentean Keliboon Armor",
+
 
   "item.tfw.micentean_ingot": "Micentean Ingot",
   "item.tfw.raw_micentean": "Raw Micentean",
@@ -47,6 +55,9 @@
 
   "block.tfw.tadacia_log": "Tadacia Log",
 
+  "block.tfw.tadacia_fence": "Tadacia Fence",
+  "block.tfw.tadacia_fence_gate": "Tadacia Gate",
+
   "block.tfw.burnt_tadacia_log": "Burnt Tadacia Log",
   "block.tfw.tadacia_planks": "Tadacia planks",
   "block.tfw.burnt_tadacia_sapling": "Burnt Tadacia Sapling",
@@ -83,6 +94,8 @@
   "block.tfw.deepslate_micentean_ore": "Deepslate Micentean Ore",
   "block.tfw.mincentean_block": "Micentean Block",
 
+  "block.tfw.pink_pearl": "Pink Pearl",
+  "block.tfw.blue_pearl": "Blue Pearl",
 
   "block.tfw.blue_mumbade": "Blue Mumbade",
   "block.tfw.purple_mumbade": "Purple Mumbade",
@@ -92,11 +105,18 @@
   "block.tfw.purple_mumbade_crop": "Purple Mumbade Crop",
   "block.tfw.gold_mumbade_crop": "Gold Mumbade Crop",
 
+  "block.tfw.pink_pearl_crop": "Pink Pearl Crop",
+  "block.tfw.blue_pearl_crop": "Blue Pearl Crop",
 
+  "block.tfw.purple_carrot": "Purple Carrot",
 
   "block.tfw.potted_gold_mumbade": "Potted Gold Mumbade",
   "block.tfw.potted_blue_mumbade": "Potted Blue Mumbade",
   "block.tfw.potted_purple_mumbade": "Potted Purple Mumbade",
+
+  "block.tfw.potted_pink_pearl": "Potted Pink Pearl",
+  "block.tfw.potted_blue_pearl": "Potted Blue Pearl",
+
 
   "block.tfw.unlit_lantern": "Lantern (Unlit)",
   "block.tfw.netherite_blaster": "Netherite Blaster",

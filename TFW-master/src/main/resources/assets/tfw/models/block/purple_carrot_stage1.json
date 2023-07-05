@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "tfw:block/purple_carrot_stage1"
+  }
+}

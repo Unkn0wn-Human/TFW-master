@@ -3447,7 +3447,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "minecraft:stony_shore"
+                                  "tfw:frozen_stony_shore"
                                 ]
                               },
                               "then_run": {
@@ -4243,7 +4243,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "minecraft:stony_shore"
+                                  "tfw:frozen_stony_shore"
                                 ]
                               },
                               "then_run": {

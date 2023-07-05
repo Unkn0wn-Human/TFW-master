@@ -32,8 +32,9 @@
   "features": [
     [],
     [
-      "tfw:compact_snow_tadacia",
+
       "tfw:trees_tadacia",
+      "tfw:compact_snow_tadacia",
       "minecraft:lake_lava_underground"
 
 

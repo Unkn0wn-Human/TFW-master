@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfw:syph_fence"
+    "tfw:syph_fence",
+    "tfw:tadacia_fence"
   ]
 }

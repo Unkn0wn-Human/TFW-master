@@ -1,0 +1,18 @@
+{
+  "replace": false,
+
+  "_comment": " This biome tag can specify the biome directly. Or specify another biome tag by starting with # ",
+  "values": [
+
+    "tfw:frozen_plains",
+    "tfw:frozen_cold_plains",
+    "tfw:frozen_meadow",
+    "tfw:frozen_syph_forest",
+    "tfw:frozen_blue_syph_forest",
+    "tfw:frozen_grove",
+    "tfw:frozen_sparse_jungle",
+    "tfw:frozen_windswept_drylands",
+    "tfw:frozen_windswept_hills",
+    "tfw:frozen_windswept_syph_forest"
+  ]
+}

@@ -4,7 +4,10 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.isaacj.tfw.TFWmod;
 import net.isaacj.tfw.block.custom.*;
+import net.isaacj.tfw.block.custom.crop.BluePearlBlock;
 import net.isaacj.tfw.block.custom.crop.ModBlueMumbadeBlock;
+import net.isaacj.tfw.block.custom.crop.PinkPearlBlock;
+import net.isaacj.tfw.block.custom.crop.PurpleCarrotsBlock;
 import net.isaacj.tfw.item.ModItemGroups;
 import net.isaacj.tfw.world.feature.tree.*;
 import net.minecraft.block.*;
@@ -72,6 +75,16 @@ public class ModBlocks {
 
     public static final Block TADACIA_PLANKS = registerBlock("tadacia_planks",
             new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)),ModItemGroups.TFW);
+
+    public static final Block TADACIA_FENCE = registerBlock("tadacia_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).
+                    strength(0.5f, 2.5f )),
+            ModItemGroups.TFW);
+
+    public static final Block TADACIA_FENCE_GATE = registerBlock("tadacia_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).
+                    strength(0.5f, 2.5f )),
+            ModItemGroups.TFW);
 
     public static final Block BURNT_TADACIA_SAPLING = registerBlock("burnt_tadacia_sapling",
             new ModSaplingBlock(new BurntTadaciaSaplingGenerator(),
@@ -200,6 +213,14 @@ public class ModBlocks {
                     .strength(2f, 15f )),
             ModItemGroups.TFW);
 
+    public static final Block PINK_PEARL = registerBlock("pink_pearl",
+            new FlowerBlock(StatusEffects.GLOWING, 8, FabricBlockSettings.copy(Blocks.POPPY)),
+            ModItemGroups.TFW);
+
+    public static final Block BLUE_PEARL = registerBlock("blue_pearl",
+            new FlowerBlock(StatusEffects.GLOWING, 8, FabricBlockSettings.copy(Blocks.POPPY)),
+            ModItemGroups.TFW);
+
     public static final Block BLUE_MUMBADE = registerBlock("blue_mumbade",
             new FlowerBlock(StatusEffects.GLOWING, 8, FabricBlockSettings.copy(Blocks.POPPY)),
             ModItemGroups.TFW);
@@ -212,6 +233,7 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.GLOWING, 8, FabricBlockSettings.copy(Blocks.POPPY)),
             ModItemGroups.TFW);
 
+
     public static final Block POTTED_BLUE_MUMBADE = registerBlockWithoutBlockItem("potted_blue_mumbade",
             new FlowerPotBlock(ModBlocks.BLUE_MUMBADE, FabricBlockSettings.copy(Blocks.POTTED_POPPY)));
 
@@ -221,9 +243,22 @@ public class ModBlocks {
     public static final Block POTTED_PURPLE_MUMBADE = registerBlockWithoutBlockItem("potted_purple_mumbade",
             new FlowerPotBlock(ModBlocks.PURPLE_MUMBADE, FabricBlockSettings.copy(Blocks.POTTED_POPPY)));
 
+    public static final Block POTTED_PINK_PEARL = registerBlockWithoutBlockItem("potted_pink_pearl",
+            new FlowerPotBlock(ModBlocks.PINK_PEARL, FabricBlockSettings.copy(Blocks.POTTED_POPPY)));
+
+    public static final Block POTTED_BLUE_PEARL = registerBlockWithoutBlockItem("potted_blue_pearl",
+            new FlowerPotBlock(ModBlocks.BLUE_PEARL, FabricBlockSettings.copy(Blocks.POTTED_POPPY)));
+
     public static final Block UNLIT_LANTERN = registerBlock("unlit_lantern",
             new LanternBlock(FabricBlockSettings.of(Material.METAL)
     .sounds(BlockSoundGroup.LANTERN).strength(3.5f,3.5f).nonOpaque()), ModItemGroups.TFW);
+
+    public static final Block GLIMMERLACE = registerBlock("glimmerlace",
+            new VineBlock(FabricBlockSettings.copy(Blocks.VINE).luminance((state) -> 5)), ModItemGroups.TFW);
+
+
+    public static final Block PURPLE_CARROT_CROP = registerBlockWithoutBlockItem("purple_carrot",
+            new PurpleCarrotsBlock(FabricBlockSettings.copy(Blocks.CARROTS)));
 
 //mumbade crop
     public static final Block BLUE_MUMBADE_CROP = registerBlockWithoutBlockItem("blue_mumbade_crop",
@@ -235,8 +270,13 @@ public class ModBlocks {
     public static final Block GOLD_MUMBADE_CROP = registerBlockWithoutBlockItem("gold_mumbade_crop",
             new ModBlueMumbadeBlock(FabricBlockSettings.copy(Blocks.BEETROOTS)));
 
-    public static final Block GLIMMERLACE = registerBlock("glimmerlace",
-            new VineBlock(FabricBlockSettings.copy(Blocks.VINE).luminance((state) -> 5)), ModItemGroups.TFW);
+//pearl flower
+
+    public static final Block PINK_PEARL_CROP = registerBlockWithoutBlockItem("pink_pearl_crop",
+            new PinkPearlBlock(FabricBlockSettings.copy(Blocks.BEETROOTS)));
+
+    public static final Block BLUE_PEARL_CROP = registerBlockWithoutBlockItem("blue_pearl_crop",
+            new BluePearlBlock(FabricBlockSettings.copy(Blocks.BEETROOTS)));
 
 
 
